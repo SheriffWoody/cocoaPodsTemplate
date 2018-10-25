@@ -14,4 +14,4 @@ git commit -m $VersionString
 git tag ${VersionString}
 git push origin master --tags
 #发布
-pod repo push CYTCocoaPodsSpecs $podspec --allow-warnings --use-libraries --verbose
+pod repo push “yourRepoName” $podspec --allow-warnings --use-libraries --verbose
