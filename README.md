@@ -4,11 +4,11 @@
 ## Usage
 ### 下载模板
 ```shell
-git clone http://git.drcuiyutao.com/iOS/CocoaPodsTemplates.git
+git clone https://github.com/SheriffWoody/cocoaPodsTemplate.git
 ```
 
 ### 创建私有pod 
-1. GitLab上创建私有pod仓库
+1. GitHub上创建私有pod仓库
 
 2. 进入CocoaPodsTemplates文件夹
 cd CocoaPodsTemplates
@@ -20,7 +20,7 @@ cd CocoaPodsTemplates
 
 5. 输入项目名称
 
-6. 输入SSH URL(在步骤一gitlab页面上获取)
+6. 输入SSH URL(在步骤一github页面上获取)
 
 7. 输入作者，邮箱
 
@@ -46,7 +46,7 @@ Core中放模块源代码
 3. 双击push.sh发布
 
 ## Author
-Woody  dean.hu@drcuiyutao.com
+Woody  hudi721@foxmail.com
 
 ## License
 
