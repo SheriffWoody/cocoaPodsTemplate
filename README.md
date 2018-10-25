@@ -50,5 +50,5 @@ Woody  hudi721@foxmail.com
 
 ## License
 
-CocoaPodsTemplates is released under the MIT license. See [LICENSE](http://git.drcuiyutao.com/iOS/Components/CYTScanCode/blob/master/FILE_LICENSE) for details.
+CocoaPodsTemplates is released under the MIT license.
 
