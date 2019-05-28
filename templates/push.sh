@@ -2,7 +2,8 @@
 
 # 发布
 function push(){
-	# public pod
+	# public pod  
+	# trunk之前需要提前register  pod trunk register orta@cocoapods.org 'Orta Therox' --description='macbook air'
 	# pod trunk push $podspec --allow-warnings --use-libraries --verbose
 
 	# private pod
