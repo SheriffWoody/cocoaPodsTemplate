@@ -91,6 +91,7 @@ def createPathAndCopyFile():
     specFilePath = projectPath +"/"+projectName+".podspec"
     readmeFilePath = projectPath +"/readme.md"
     pushFilePath = projectPath +"/push.sh"
+    binaryFilePath = projectPath +"/binary.sh"
     map={"__ProjectName__":projectName,"__HomePage__":homePage,"__Author__":Author,"__Email__":Email,"__SSHURL__":sshRepo}
 
     print("拷贝license文件")
@@ -105,8 +106,12 @@ def createPathAndCopyFile():
     fileSed(readmeFilePath,map)
 
     print("拷贝发布文件")
-    shutil.copyfile("./templates/push.sh",pushFilePath) #后续修改成unix文件
+    shutil.copyfile("./templates/push.sh",pushFilePath)
     os.system("chmod +x %s"%pushFilePath)
+
+    print("拷贝发布二进制文件")
+    shutil.copyfile("./templates/binary.sh",binaryFilePath)
+    os.system("chmod +x %s"%binaryFilePath)
 
     #为了保证文件夹不是空的 git add
     shutil.copyfile("./templates/.gitignore",Core+"/.gitignore")
